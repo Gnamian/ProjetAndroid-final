@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu"
+    android:gravity="center"
+    android:background="@android:color/background_dark">
+    <TextView
+        android:gravity="top"
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BIENVENUE SUR MON APPLI☺"
+        android:textStyle="bold"
+        android:textSize="45sp"
+        android:layout_marginBottom="80dp"
+        android:textColor="@android:color/holo_orange_light"/>
+    <Button
+        android:layout_below="@id/txt"
+        android:id="@+id/calcul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculette"
+        android:textStyle="italic"
+        android:background="@android:color/darker_gray"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        android:layout_marginBottom="10dp"
+        android:shadowColor="@android:color/background_dark"/>
+
+    <Button
+        android:layout_below="@id/calcul"
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Annuaire"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@android:color/darker_gray"
+        android:shadowColor="@android:color/background_dark"/>
+
+</RelativeLayout>
